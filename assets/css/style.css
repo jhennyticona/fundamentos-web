@@ -1,0 +1,64 @@
+/*Estilo da página Index*/
+body{
+    background-color: #303952;
+}
+h1{
+    color: #f19066;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: #f19066;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: #c8d6e5;
+}
+.center{
+    text-align:center;
+}
+.justify{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: #3dc1d3;
+}
+.p-30{
+    padding: 30px;
+    font-size: 25px;
+    color: #c8d6e5;
+}
+.br-50{
+    border-radius:50%;
+}
+.tm-social{
+    width:50px;
+    height: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Estilos da página de Contatos*/
+.ml-50{
+    margin-left: 50px;
+}
+label{
+    color: #c8d6e5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
